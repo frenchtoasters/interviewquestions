@@ -16,7 +16,7 @@ def pickmeal() -> Future:
 
 async def main():
     my_dinner = pickmeal()
-    result = await my_dinner
+    result = my_dinner
 
     print(result)
 
